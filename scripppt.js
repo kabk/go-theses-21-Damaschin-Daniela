@@ -22,6 +22,8 @@ $(".container3").on("scroll", function () {
   PTR.style.left='193vw';
   PBR.style.left='185vw';
 
+  PTL.style.top='0.5vh';
+  PTR.style.top='0.5vh';
   PBL.style.top='30vh';
   PBR.style.top='30vh';
 
@@ -49,6 +51,8 @@ PBL.style.left='-7vw';
 PTR.style.left='87vw';
 PBR.style.left='87vw';
 
+PTL.style.top='0.5vh';
+PTR.style.top='0.5vh';
 PBL.style.top='48vh';
 PBR.style.top='48vh';
 
@@ -77,6 +81,8 @@ PBL.style.left='195vw';
 PTR.style.left='295vw';
 PBR.style.left='295vw';
 
+PTL.style.top='0.5vh';
+PTR.style.top='0.5vh';
 PBL.style.top='48vh';
 PBR.style.top='48vh';
 
@@ -102,7 +108,7 @@ PBR.classList.add("par");
 function CCONC() {
 PTL.style.left='290vw';
 PBL.style.left='305vw';
-PTR.style.left='390vw';
+PTR.style.left='393vw';
 PBR.style.left='400vw';
 
 PTL.style.top='-1vh';
