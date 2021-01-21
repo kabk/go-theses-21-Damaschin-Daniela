@@ -132,6 +132,9 @@ color: var(--bot);
   height: 60vh;
 
 }
+.notnot{
+  opacity:0;
+}
 .txt{
 font-family: Treg;
 text-decoration: none;
@@ -204,14 +207,14 @@ a{
 .pars{
   font-family: TU;
   position: absolute;
-  font-size: 35vh;
+  font-size: 30vh;
   display: block;
 padding: none;
 }
 .parl{
   font-family: TU;
   position: absolute;
-  font-size: 55vh;
+  font-size: 64vh;
   display: block;
 padding: none;
 }
@@ -227,24 +230,28 @@ padding: none;
 top: 0.5vh;
 left: -7vw;
 height: 45vh;
+z-index: 10;
 }
 #parbl{
   color: var(--botlight);
 top: 48vh;
 left: -7vw;
 height: 45vh;
+z-index: 10;
 }
 #partr{
   color: var(--toplight);
 top: 0.5vh;
-right: -9vw;
+left: 87vw;
 height: 45vh;
+z-index: 10;
 }
 #parbr{
   color: var(--botlight);
 top: 48vh;
-right: -9vw;
+left: 87vw;
 height: 45vh;
+z-index: 10;
 }
 .top::-webkit-scrollbar, .top2::-webkit-scrollbar, .top1::-webkit-scrollbar {
   width: 5vw;
