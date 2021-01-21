@@ -1,6 +1,17 @@
 $(".container").on("scroll", function () {
        $(".container").scrollTop($(this).scrollTop());
    });
+$(".container1").on("scroll", function () {
+      $(".container1").scrollTop($(this).scrollTop());
+  });
+$(".container2").on("scroll", function () {
+       $(".container2").scrollTop($(this).scrollTop());
+   });
+$(".container3").on("scroll", function () {
+      $(".container3").scrollTop($(this).scrollTop());
+  });
+
+   //Dynamic landing page
    let tl = anime.timeline({
    });
    tl.add({

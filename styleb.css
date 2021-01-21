@@ -79,7 +79,7 @@ color: var(--bot);
 
 }
 
-.container {
+.container, .container1, .container2, .container3 {
     overflow-y:scroll;
     background-color: var(--backg);
     margin-top: 2vh;
