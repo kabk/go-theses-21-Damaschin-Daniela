@@ -228,28 +228,28 @@ padding: none;
 #partl{
   color: var(--toplight);
 top: 0.5vh;
-left: -7vw;
+left: -12vw;
 height: 45vh;
 z-index: 10;
 }
 #parbl{
   color: var(--botlight);
 top: 48vh;
-left: -7vw;
+left: -12vw;
 height: 45vh;
 z-index: 10;
 }
 #partr{
   color: var(--toplight);
 top: 0.5vh;
-left: 87vw;
+left: 92vw;
 height: 45vh;
 z-index: 10;
 }
 #parbr{
   color: var(--botlight);
 top: 48vh;
-left: 87vw;
+left: 92vw;
 height: 45vh;
 z-index: 10;
 }

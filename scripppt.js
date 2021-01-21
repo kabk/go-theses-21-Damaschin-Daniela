@@ -17,10 +17,10 @@ $(".container3").on("scroll", function () {
   var PBR =  document.getElementById('parbr');
 
   function BBRR() {
-  PTL.style.left='98vw';
-  PBL.style.left='90vw';
-  PTR.style.left='192vw';
-  PBR.style.left='182vw';
+  PTL.style.left='95vw';
+  PBL.style.left='85vw';
+  PTR.style.left='193vw';
+  PBR.style.left='185vw';
 
   PBL.style.top='30vh';
   PBR.style.top='30vh';
@@ -72,10 +72,10 @@ PBR.classList.add("par");
 };
 
 function AAMZ() {
-PTL.style.left='198vw';
-PBL.style.left='198vw';
-PTR.style.left='290vw';
-PBR.style.left='290vw';
+PTL.style.left='195vw';
+PBL.style.left='195vw';
+PTR.style.left='295vw';
+PBR.style.left='295vw';
 
 PBL.style.top='48vh';
 PBR.style.top='48vh';
