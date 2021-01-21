@@ -163,7 +163,7 @@ font-family: Treg;
   font-family: Treg;
 }
 .nn{
-  font-size: 1em;
+  font-size: 0.9em;
 }
 .aa{
   font-size: 0.9em;
@@ -189,6 +189,7 @@ h2{
 .mtitle{
   font-family: Eleg;
   font-size: 1.5em;
+  line-height: 0.95;
 }
 .btnin{
 }
