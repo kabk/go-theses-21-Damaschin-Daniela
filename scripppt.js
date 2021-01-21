@@ -17,122 +17,122 @@ $(".container3").on("scroll", function () {
   var PBR =  document.getElementById('parbr');
 
   function BBRR() {
-  PTL.style.left='95vw';
-  PBL.style.left='85vw';
-  PTR.style.left='193vw';
-  PBR.style.left='185vw';
+  PTL.style.left='87vw';
+  PBL.style.left='87vw';
+  PTR.style.left='194vw';
+  PBR.style.left='194vw';
 
-  PTL.style.top='0.5vh';
-  PTR.style.top='0.5vh';
-  PBL.style.top='30vh';
-  PBR.style.top='30vh';
-
-  PTL.classList.remove("pars");
-  PBL.classList.remove("pars");
-  PTR.classList.remove("pars");
-  PBR.classList.remove("pars");
-  PTL.classList.remove("parl");
-  PBL.classList.remove("parl");
-  PTR.classList.remove("parl");
-  PBR.classList.remove("parl");
-  PTL.classList.remove("par");
-  PBL.classList.remove("par");
-  PTR.classList.remove("par");
-  PBR.classList.remove("par");
-
-  PTL.classList.add("pars");
-  PBL.classList.add("parl");
-  PTR.classList.add("pars");
-  PBR.classList.add("parl");
+  // PTL.style.top='0.5vh';
+  // PTR.style.top='0.5vh';
+  // PBL.style.top='30vh';
+  // PBR.style.top='30vh';
+  //
+  // PTL.classList.remove("pars");
+  // PBL.classList.remove("pars");
+  // PTR.classList.remove("pars");
+  // PBR.classList.remove("pars");
+  // PTL.classList.remove("parl");
+  // PBL.classList.remove("parl");
+  // PTR.classList.remove("parl");
+  // PBR.classList.remove("parl");
+  // PTL.classList.remove("par");
+  // PBL.classList.remove("par");
+  // PTR.classList.remove("par");
+  // PBR.classList.remove("par");
+  //
+  // PTL.classList.add("pars");
+  // PBL.classList.add("parl");
+  // PTR.classList.add("pars");
+  // PBR.classList.add("parl");
 };
 function LLAND() {
-PTL.style.left='-7vw';
-PBL.style.left='-7vw';
-PTR.style.left='87vw';
-PBR.style.left='87vw';
+PTL.style.left='-16vw';
+PBL.style.left='-16vw';
+PTR.style.left='93vw';
+PBR.style.left='93vw';
 
-PTL.style.top='0.5vh';
-PTR.style.top='0.5vh';
-PBL.style.top='48vh';
-PBR.style.top='48vh';
-
-PTL.classList.remove("pars");
-PBL.classList.remove("pars");
-PTR.classList.remove("pars");
-PBR.classList.remove("pars");
-PTL.classList.remove("parl");
-PBL.classList.remove("parl");
-PTR.classList.remove("parl");
-PBR.classList.remove("parl");
-PTL.classList.remove("par");
-PBL.classList.remove("par");
-PTR.classList.remove("par");
-PBR.classList.remove("par");
-
-PTL.classList.add("par");
-PBL.classList.add("par");
-PTR.classList.add("par");
-PBR.classList.add("par");
+// PTL.style.top='0.5vh';
+// PTR.style.top='0.5vh';
+// PBL.style.top='48vh';
+// PBR.style.top='48vh';
+//
+// PTL.classList.remove("pars");
+// PBL.classList.remove("pars");
+// PTR.classList.remove("pars");
+// PBR.classList.remove("pars");
+// PTL.classList.remove("parl");
+// PBL.classList.remove("parl");
+// PTR.classList.remove("parl");
+// PBR.classList.remove("parl");
+// PTL.classList.remove("par");
+// PBL.classList.remove("par");
+// PTR.classList.remove("par");
+// PBR.classList.remove("par");
+//
+// PTL.classList.add("par");
+// PBL.classList.add("par");
+// PTR.classList.add("par");
+// PBR.classList.add("par");
 };
 
 function AAMZ() {
-PTL.style.left='195vw';
-PBL.style.left='195vw';
-PTR.style.left='295vw';
-PBR.style.left='295vw';
+PTL.style.left='190vw';
+PBL.style.left='190vw';
+PTR.style.left='297vw';
+PBR.style.left='297vw';
 
-PTL.style.top='0.5vh';
-PTR.style.top='0.5vh';
-PBL.style.top='48vh';
-PBR.style.top='48vh';
-
-PTL.classList.remove("pars");
-PBL.classList.remove("pars");
-PTR.classList.remove("pars");
-PBR.classList.remove("pars");
-PTL.classList.remove("parl");
-PBL.classList.remove("parl");
-PTR.classList.remove("parl");
-PBR.classList.remove("parl");
-PTL.classList.remove("par");
-PBL.classList.remove("par");
-PTR.classList.remove("par");
-PBR.classList.remove("par");
-
-PTL.classList.add("par");
-PBL.classList.add("par");
-PTR.classList.add("par");
-PBR.classList.add("par");
+// PTL.style.top='0.5vh';
+// PTR.style.top='0.5vh';
+// PBL.style.top='48vh';
+// PBR.style.top='48vh';
+//
+// PTL.classList.remove("pars");
+// PBL.classList.remove("pars");
+// PTR.classList.remove("pars");
+// PBR.classList.remove("pars");
+// PTL.classList.remove("parl");
+// PBL.classList.remove("parl");
+// PTR.classList.remove("parl");
+// PBR.classList.remove("parl");
+// PTL.classList.remove("par");
+// PBL.classList.remove("par");
+// PTR.classList.remove("par");
+// PBR.classList.remove("par");
+//
+// PTL.classList.add("par");
+// PBL.classList.add("par");
+// PTR.classList.add("par");
+// PBR.classList.add("par");
 };
 
 function CCONC() {
-PTL.style.left='290vw';
-PBL.style.left='305vw';
-PTR.style.left='393vw';
-PBR.style.left='400vw';
+PTL.style.left='293vw';
+PBL.style.left='293vw';
+PTR.style.left='401vw';
+PBR.style.left='401vw';
 
-PTL.style.top='-1vh';
-PTR.style.top='-1vh';
-PBL.style.top='63vh';
-PBR.style.top='63vh';
-
-PTL.classList.remove("pars");
-PBL.classList.remove("pars");
-PTR.classList.remove("pars");
-PBR.classList.remove("pars");
-PTL.classList.remove("parl");
-PBL.classList.remove("parl");
-PTR.classList.remove("parl");
-PBR.classList.remove("parl");
-PTL.classList.remove("par");
-PBL.classList.remove("par");
-PTR.classList.remove("par");
-PBR.classList.remove("par");
-
-PTL.classList.add("parl");
-PBL.classList.add("pars");
-PTR.classList.add("parl");
-PBR.classList.add("pars");
+// PTL.style.top='-1vh';
+// PTR.style.top='-1vh';
+// PBL.style.top='63vh';
+// PBR.style.top='63vh';
+//
+// PTL.classList.remove("pars");
+// PBL.classList.remove("pars");
+// PTR.classList.remove("pars");
+// PBR.classList.remove("pars");
+// PTL.classList.remove("parl");
+// PBL.classList.remove("parl");
+// PTR.classList.remove("parl");
+// PBR.classList.remove("parl");
+// PTL.classList.remove("par");
+// PBL.classList.remove("par");
+// PTR.classList.remove("par");
+// PBR.classList.remove("par");
+//
+// PTL.classList.add("parl");
+// PBL.classList.add("pars");
+// PTR.classList.add("parl");
+// PBR.classList.add("pars");
 };
 
 

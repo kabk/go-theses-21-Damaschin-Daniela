@@ -175,7 +175,7 @@ font-family: Treg;
   border-radius: 5vw;
 }
 img{
-  border-radius: 10vw;
+  border-radius: 3vw;
   width: 70vw;
   height: auto;
 }
@@ -229,28 +229,28 @@ padding: none;
 #partl{
   color: var(--toplight);
 top: 0.5vh;
-left: -12vw;
+left: -16vw;
 height: 45vh;
 z-index: 10;
 }
 #parbl{
   color: var(--botlight);
 top: 48vh;
-left: -12vw;
+left: -16vw;
 height: 45vh;
 z-index: 10;
 }
 #partr{
   color: var(--toplight);
 top: 0.5vh;
-left: 92vw;
+left: 93vw;
 height: 45vh;
 z-index: 10;
 }
 #parbr{
   color: var(--botlight);
 top: 48vh;
-left: 92vw;
+left: 93vw;
 height: 45vh;
 z-index: 10;
 }
