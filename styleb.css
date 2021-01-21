@@ -28,6 +28,10 @@ color: var(--neutral);
  background-color:var(--backg);
  scroll-behavior: smooth;
 }
+#landing{
+  display: block;
+  top: 0;
+}
 #brr{
   display: block;
   position: absolute;
@@ -91,6 +95,7 @@ color: var(--bot);
 }
 
 .wrap{
+  padding-top: 45vh;
   padding-bottom: 15vw;
 }
 .nav{
@@ -220,74 +225,25 @@ padding: none;
 #partl{
   color: var(--toplight);
 top: 0.5vh;
-left: -2vw;
+left: -7vw;
 height: 45vh;
 }
 #parbl{
   color: var(--botlight);
 top: 48vh;
-left: -2.5vw;
+left: -7vw;
 height: 45vh;
 }
 #partr{
   color: var(--toplight);
 top: 0.5vh;
-right: -2.5vw;
+right: -9vw;
 height: 45vh;
 }
 #parbr{
   color: var(--botlight);
 top: 48vh;
-right: -2.5vw;
-height: 45vh;
-}
-#partl1{
-  color: var(--toplight);
-top: 0.5vh;
-left: -2vw;
-height: 45vh;
-}
-#parbl1{
-  color: var(--botlight);
-top: 38vh;
-left: -2.5vw;
-height: 45vh;
-}
-#partr1{
-  color: var(--toplight);
-top: 0.5vh;
-right: -2.5vw;
-height: 45vh;
-}
-#parbr1{
-  color: var(--botlight);
-top: 38vh;
-right: -2.5vw;
-height: 45vh;
-}
-
-#partl2{
-  color: var(--toplight);
-top: 0.5vh;
-left: -2vw;
-height: 45vh;
-}
-#parbl2{
-  color: var(--botlight);
-top: 48vh;
-left: -2.5vw;
-height: 45vh;
-}
-#partr2{
-  color: var(--toplight);
-top: 0.5vh;
-right: -2.5vw;
-height: 45vh;
-}
-#parbr2{
-  color: var(--botlight);
-top: 48vh;
-right: -2.5vw;
+right: -9vw;
 height: 45vh;
 }
 .top::-webkit-scrollbar, .top2::-webkit-scrollbar, .top1::-webkit-scrollbar {
