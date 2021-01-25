@@ -28,109 +28,6 @@ color: var(--neutral);
  background-color:var(--backg);
  scroll-behavior: smooth;
 }
-#landing{
-  display: block;
-  top: 0;
-}
-#brr{
-  display: block;
-  position: absolute;
-  left: 105vw;
-  top: 0;
-}
-#amz{
-  display: block;
-  position: absolute;
-  left: 208vw;
-  top: 0;
-}
-#conc{
-  display: block;
-  position: absolute;
-  left: 312vw;
-  top: 0;
-}
-.pad{
-  display: block;
-  position: absolute;
-  top:0;
-  width: 5vw;
-  height: 100vh;
-}
-.bottom{
-overflow-x: hidden;
-width: 87vw;
-height: 45vh;
-color: var(--bot);
-
-}
-.bottom1{
-overflow-x: hidden;
-width: 87vw;
-height: 60vh;
-color: var(--bot);
-
-}
-.bottom2{
-overflow-x: hidden;
-width: 87vw;
-height: 30vh;
-color: var(--bot);
-
-}
-
-.container, .container1, .container2, .container3 {
-    overflow-y:scroll;
-    background-color: var(--backg);
-    margin-top: 2vh;
-    margin-left: 1.3vh;
-    margin-right: 1vh;
-    padding-left: 5vw;
-    padding-right: 2vw;
-    /* padding-bottom: 20vw; */
-    /* border: 1px solid #969B9D; */
-   /* box-shadow: inset 0vw 3.5vw 2vw #6A35AC; */
-   /* inset -1vw -3.5vw 2vw #6A35AC; */
-}
-
-.wrap{
-  padding-top: 45vh;
-  padding-bottom: 15vw;
-}
-.nav{
-  width: 60vw;
-  text-align: center ;
-  padding-top: 1vw;
-  margin: auto;
-  font-size: 1.5em;
-  font-family: Treg;
-  color: var(--neutral);
-}
-.smile{
-  color: var(--neutral);
-  font-size: 1.35em;
-}
-
-.top{
-  color: var(--top);
-  overflow-x: hidden;
-  width: 87vw;
-  height: 45vh;
-}
-.top1{
-  color: var(--top);
-  overflow-x: hidden;
-  width: 87vw;
-  height: 30vh;
-
-}
-.top2{
-  color: var(--top);
-  overflow-x: hidden;
-  width: 87vw;
-  height: 60vh;
-
-}
 .notnot{
   opacity:0;
 }
@@ -173,11 +70,8 @@ font-family: Treg;
   width: 70vw;
   border-radius: 5vw;
 }
-img{
-  border-radius: 3vw;
-  width: 70vw;
-  height: auto;
-}
+
+
 h2{
   margin-top: 10vh;
 }
@@ -192,11 +86,7 @@ h2{
 }
 .btnin{
 }
-.cc{
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 a{
   color: var(--neutral);
   text-decoration: none;
@@ -204,27 +94,7 @@ a{
 .flowtext{
   font-size: 1em;
 }
-.pars{
-  font-family: TU;
-  position: absolute;
-  font-size: 30vh;
-  display: block;
-padding: none;
-}
-.parl{
-  font-family: TU;
-  position: absolute;
-  font-size: 64vh;
-  display: block;
-padding: none;
-}
-.par{
-  font-family: TU;
-  position: absolute;
-  font-size: 45vh;
-  display: block;
-padding: none;
-}
+
 #partl{
   color: var(--toplight);
 top: 0.5vh;
@@ -253,27 +123,454 @@ left: 103vw;
 height: 45vh;
 z-index: 10;
 }
-.top::-webkit-scrollbar, .top2::-webkit-scrollbar, .top1::-webkit-scrollbar {
-  width: 5vw;
-}
 
-.top::-webkit-scrollbar-track, .top2::-webkit-scrollbar-track, .top1::-webkit-scrollbar-track {
-  background-color: none;
-}
+/* LONG SO MOBILE */
+  @media screen and (max-aspect-ratio: 5/5)  {
+    .container, .container1, .container2, .container3 {
+        overflow-y:scroll;
+        background-color: var(--backg);
+        margin-top: 2vh;
+        margin-left: 1.3vh;
+        margin-right: 1vh;
+        padding-left: 5vw;
+        padding-right: 2vw;
+    }
+    img{
+      border-radius: 3vw;
+      width: 70vw;
+      height: auto;
+    }
+    .cc{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .par{
+      font-family: TU;
+      position: absolute;
+      font-size: 45vh;
+      display: block;
+    padding: none;
+    }
+    .nav{
+      width: 60vw;
+      text-align: center ;
+      padding-top: 1vw;
+      margin: auto;
+      font-size: 1.5em;
+      font-family: Treg;
+      color: var(--neutral);
+    }
+    #landing{
+      display: block;
+      top: 0;
+    }
 
-.top::-webkit-scrollbar-thumb, .top2::-webkit-scrollbar-thumb, .top1::-webkit-scrollbar-thumb {
-  background-color:  var(--toplight);
-  border-radius: 5vw;
-}
-.bottom::-webkit-scrollbar, .bottom2::-webkit-scrollbar , .bottom1::-webkit-scrollbar {
-  width:5vw;
-}
+    #brr{
+      display: block;
+      position: absolute;
+      left: 105vw;
+      top: 0;
+    }
+    #amz{
+      display: block;
+      position: absolute;
+      left: 208vw;
+      top: 0;
+    }
+    #conc{
+      display: block;
+      position: absolute;
+      left: 312vw;
+      top: 0;
+    }
+    .pad{
+      display: block;
+      position: absolute;
+      top:0;
+      width: 5vw;
+      height: 100vh;
+    }
+    .bottom{
+    overflow-x: hidden;
+    width: 87vw;
+    height: 45vh;
+    color: var(--bot);
 
-.bottom::-webkit-scrollbar-track, .bottom2::-webkit-scrollbar-track, .bottom1::-webkit-scrollbar-track {
-  background-color: none;
-}
+    }
+    .bottom1{
+    overflow-x: hidden;
+    width: 87vw;
+    height: 60vh;
+    color: var(--bot);
 
-.bottom::-webkit-scrollbar-thumb, .bottom2::-webkit-scrollbar-thumb, .bottom1::-webkit-scrollbar-thumb {
-  background-color: var(--botlight);
-  border-radius: 5vw;
-}
+    }
+    .bottom2{
+    overflow-x: hidden;
+    width: 87vw;
+    height: 30vh;
+    color: var(--bot);
+
+    }
+
+
+
+    .wrap{
+      padding-top: 45vh;
+      padding-bottom: 15vw;
+    }
+
+    .top{
+      color: var(--top);
+      overflow-x: hidden;
+      width: 87vw;
+      height: 45vh;
+    }
+    .top1{
+      color: var(--top);
+      overflow-x: hidden;
+      width: 87vw;
+      height: 30vh;
+
+    }
+    .top2{
+      color: var(--top);
+      overflow-x: hidden;
+      width: 87vw;
+      height: 60vh;
+
+    }
+
+
+    .top::-webkit-scrollbar, .top2::-webkit-scrollbar, .top1::-webkit-scrollbar {
+      width: 5vw;
+    }
+
+    .top::-webkit-scrollbar-track, .top2::-webkit-scrollbar-track, .top1::-webkit-scrollbar-track {
+      background-color: none;
+    }
+
+    .top::-webkit-scrollbar-thumb, .top2::-webkit-scrollbar-thumb, .top1::-webkit-scrollbar-thumb {
+      background-color:  var(--toplight);
+      border-radius: 5vw;
+    }
+    .bottom::-webkit-scrollbar, .bottom2::-webkit-scrollbar , .bottom1::-webkit-scrollbar {
+      width:5vw;
+    }
+
+    .bottom::-webkit-scrollbar-track, .bottom2::-webkit-scrollbar-track, .bottom1::-webkit-scrollbar-track {
+      background-color: none;
+    }
+
+    .bottom::-webkit-scrollbar-thumb, .bottom2::-webkit-scrollbar-thumb, .bottom1::-webkit-scrollbar-thumb {
+      background-color: var(--botlight);
+      border-radius: 5vw;
+    }
+
+  }
+  /* Square boi */
+  @media screen and (min-aspect-ratio: 5/5)  {
+    .container, .container1, .container2, .container3 {
+        overflow-y:scroll;
+        background-color: var(--backg);
+        margin-top: 2vh;
+        margin-left: 1.3vh;
+        margin-right: 1vh;
+        padding-left: 5vw;
+        padding-right: 2vw;
+    }
+    img{
+      border-radius: 3vw;
+      width: 70vw;
+      height: auto;
+    }
+    .cc{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .par{
+      font-family: TU;
+      position: absolute;
+      font-size: 45vh;
+      display: block;
+    padding: none;
+    }
+    .nav{
+      width: 60vw;
+      text-align: center ;
+      padding-top: 1vw;
+      margin: auto;
+      font-size: 1.5em;
+      font-family: Treg;
+      color: var(--neutral);
+    }
+    #landing{
+      display: block;
+      top: 0;
+    }
+    #brr{
+      display: block;
+      position: absolute;
+      left: 105vw;
+      top: 0;
+    }
+    #amz{
+      display: block;
+      position: absolute;
+      left: 208vw;
+      top: 0;
+    }
+    #conc{
+      display: block;
+      position: absolute;
+      left: 312vw;
+      top: 0;
+    }
+    .pad{
+      display: block;
+      position: absolute;
+      top:0;
+      width: 5vw;
+      height: 100vh;
+    }
+    .bottom{
+    overflow-x: hidden;
+    width: 87vw;
+    height: 45vh;
+    color: var(--bot);
+
+    }
+    .bottom1{
+    overflow-x: hidden;
+    width: 87vw;
+    height: 60vh;
+    color: var(--bot);
+
+    }
+    .bottom2{
+    overflow-x: hidden;
+    width: 87vw;
+    height: 30vh;
+    color: var(--bot);
+
+    }
+
+    .wrap{
+      padding-top: 45vh;
+      padding-bottom: 15vw;
+    }
+
+    .top{
+      color: var(--top);
+      overflow-x: hidden;
+      width: 87vw;
+      height: 45vh;
+    }
+    .top1{
+      color: var(--top);
+      overflow-x: hidden;
+      width: 87vw;
+      height: 30vh;
+
+    }
+    .top2{
+      color: var(--top);
+      overflow-x: hidden;
+      width: 87vw;
+      height: 60vh;
+
+    }
+
+
+    .top::-webkit-scrollbar, .top2::-webkit-scrollbar, .top1::-webkit-scrollbar {
+      width: 5vw;
+    }
+
+    .top::-webkit-scrollbar-track, .top2::-webkit-scrollbar-track, .top1::-webkit-scrollbar-track {
+      background-color: none;
+    }
+
+    .top::-webkit-scrollbar-thumb, .top2::-webkit-scrollbar-thumb, .top1::-webkit-scrollbar-thumb {
+      background-color:  var(--toplight);
+      border-radius: 5vw;
+    }
+    .bottom::-webkit-scrollbar, .bottom2::-webkit-scrollbar , .bottom1::-webkit-scrollbar {
+      width:5vw;
+    }
+
+    .bottom::-webkit-scrollbar-track, .bottom2::-webkit-scrollbar-track, .bottom1::-webkit-scrollbar-track {
+      background-color: none;
+    }
+
+    .bottom::-webkit-scrollbar-thumb, .bottom2::-webkit-scrollbar-thumb, .bottom1::-webkit-scrollbar-thumb {
+      background-color: var(--botlight);
+      border-radius: 5vw;
+    }
+
+  }
+  /* Desktop */
+  @media screen and (min-aspect-ratio: 6/5) {
+    .container, .container1, .container2, .container3 {
+        overflow-y:scroll;
+        background-color: var(--backg);
+        margin-top: 2vh;
+        margin-left: 1.3vh;
+        margin-right: 1vh;
+        padding-left: 1.5vw;
+        padding-right: 2vw;
+    }
+    .cc{
+      width: 35vw;
+
+      margin-left: 0;
+      margin-right: auto;
+    }
+    img{
+      border-radius: 3vw;
+      width: 35vw;
+      height: auto;
+    }
+    #landing{
+      display: block;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    #brr{
+      display: block;
+      position: absolute;
+      left: 110vw;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+    }
+    #amz{
+      display: block;
+      position: absolute;
+      left: 215vw;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+    }
+    #conc{
+      display: block;
+      position: absolute;
+      left: 330vw;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+    }
+    .par{
+    display: none;
+  }
+  .wrap{
+    padding-top: 90vh;
+    padding-bottom: 15vw;
+  }
+  .bottom{
+  overflow-x: hidden;
+  width: 42vw;
+  height: 90vh;
+  color: var(--bot);
+  display: block;
+  position: absolute;
+top:0;
+left: 50vw;
+  }
+
+  .top{
+    display: block;
+    position: absolute;
+  top:0;
+  left: 0vw;
+    color: var(--top);
+    overflow-x: hidden;
+    width: 42vw;
+    height: 90vh;
+  }
+  .top1{
+    display: block;
+    position: absolute;
+  top:0;
+  left: 0vw;
+    color: var(--top);
+    overflow-x: hidden;
+    width: 35vw;
+    height: 90vh;
+  }
+  .bottom1{
+  overflow-x: hidden;
+  width: 58vw;
+  height: 90vh;
+  color: var(--bot);
+  display: block;
+  position: absolute;
+top:0;
+left: 40vw;
+  }
+  .top2{
+    display: block;
+    position: absolute;
+  top:0;
+  left: 0vw;
+    color: var(--top);
+    overflow-x: hidden;
+    width: 58vw;
+    height: 90vh;
+  }
+  .bottom2{
+  overflow-x: hidden;
+  width: 35vw;
+  height: 90vh;
+  color: var(--bot);
+  display: block;
+  position: absolute;
+top:0;
+left: 58vw;
+  }
+  .nav{
+    position: absolute;
+    display: block;
+    bottom: 4vh;
+    width: 60vw;
+    text-align: center ;
+    padding-top: 1vw;
+    margin-left: 20vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    font-family: Treg;
+    color: var(--neutral);
+  }
+
+
+
+  .top::-webkit-scrollbar, .top2::-webkit-scrollbar, .top1::-webkit-scrollbar {
+    width: 2vw;
+  }
+
+  .top::-webkit-scrollbar-track, .top2::-webkit-scrollbar-track, .top1::-webkit-scrollbar-track {
+    background-color: none;
+  }
+
+  .top::-webkit-scrollbar-thumb, .top2::-webkit-scrollbar-thumb, .top1::-webkit-scrollbar-thumb {
+    background-color:  var(--toplight);
+    border-radius: 2vw;
+  }
+  .bottom::-webkit-scrollbar, .bottom2::-webkit-scrollbar , .bottom1::-webkit-scrollbar {
+    width:2vw;
+  }
+
+  .bottom::-webkit-scrollbar-track, .bottom2::-webkit-scrollbar-track, .bottom1::-webkit-scrollbar-track {
+    background-color: none;
+  }
+
+  .bottom::-webkit-scrollbar-thumb, .bottom2::-webkit-scrollbar-thumb, .bottom1::-webkit-scrollbar-thumb {
+    background-color: var(--botlight);
+    border-radius: 2vw;
+  }
+
+
+  }
