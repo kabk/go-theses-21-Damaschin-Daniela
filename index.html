@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
     <title>welcome</title>
     <link rel="stylesheet" href="styleb.css"/>
-      <link rel="stylesheet" href="lilb.css"/>
+      <link rel="stylesheet" href="bigfoot-bottom.css"/>
   </head>
 <body>
 
@@ -840,11 +840,15 @@ A detailed description of the occurrence here: Lubman, David. &ldquo;Acoustical 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
      <script src="js/scripppt.js"></script>
-     <script
-  src="js/littlefoot.js"
-  type="application/javascript"
-></script>
-<script type="application/javascript">
-  littlefoot.littlefoot()  // Pass any littlefoot settings here.
-</script>
+     <script type="text/javascript" src="js/bigfoot.js"></script>
+     <script type="text/javascript">
+     var bigfoot = $.bigfoot(
+       {
+           deleteOnUnhover: false,
+           preventPageScroll: false,
+           hoverDelay: 250,
+           positionContent: true
+       }
+   );
+     </script>
     </html>
