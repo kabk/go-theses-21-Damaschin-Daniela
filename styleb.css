@@ -87,7 +87,6 @@ color: var(--bot);
     margin-right: 1vh;
     padding-left: 5vw;
     padding-right: 2vw;
-    border-radius: 20vw;
     /* padding-bottom: 20vw; */
     /* border: 1px solid #969B9D; */
    /* box-shadow: inset 0vw 3.5vw 2vw #6A35AC; */
@@ -105,7 +104,7 @@ color: var(--bot);
   margin: auto;
   font-size: 1.5em;
   font-family: Treg;
-  color: var(--nuetral);
+  color: var(--neutral);
 }
 .smile{
   color: var(--neutral);
@@ -229,28 +228,28 @@ padding: none;
 #partl{
   color: var(--toplight);
 top: 0.5vh;
-left: -16vw;
+left: -30vw;
 height: 45vh;
 z-index: 10;
 }
 #parbl{
   color: var(--botlight);
 top: 48vh;
-left: -16vw;
+left: -30vw;
 height: 45vh;
 z-index: 10;
 }
 #partr{
   color: var(--toplight);
 top: 0.5vh;
-left: 93vw;
+left: 103vw;
 height: 45vh;
 z-index: 10;
 }
 #parbr{
   color: var(--botlight);
 top: 48vh;
-left: 93vw;
+left: 103vw;
 height: 45vh;
 z-index: 10;
 }
